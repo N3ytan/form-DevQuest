@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap");
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+html {
+  background-image: url(../images/bg-repeat.jpg);
+background-size: contain;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.formulario .texto{
+    width: 560px;
+}
+
+.formulario .texto h1 {
+  width: 287px;
+  height: 20px;
+  font-weight: 900;
+  font-size: 20px;
+  line-height: 23px;
+  color: #ffffff;
+}
+
+.formulario .texto h2 {
+    width: 287px;
+    height: 46px;
+    font-weight: 900;
+    font-size: 20px;
+    color: #ffffff;
+  }
+
+.formulario .texto p {
+  width: 300px;
+  height: 54px;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  color: #ffffff;
+}
+
+.info {
+  width: 340px;
+  height: 378px;
+  background-color: #ffffff;
+}
+
+.info .input-formulario {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.info .dados {
+  width: 298.01px;
+  height: 35.11px;
+  margin-left: 21px;
+  border-radius: 5px;
+  padding: 8px;
+}
+
+.info .dados.mensagem {
+  width: 298.01px;
+  height: 100px;
+}
+
+.info span {
+  width: 145px;
+  height: 18px;
+  font-weight: 400;
+  font-size: 15px;
+  margin-left: 21px;
+}
+
+.info .btn {
+  width: 298.01px;
+  height: 41.13px;
+  margin-left: 21px;
+  background-color: #3ccc87;
+  border: 1px solid #3ccc87;
+  border-radius: 5px ;
+  color: #ffffff;
+  cursor: pointer;
+  transition: 0.6s ease;
+}
+
+.info .btn:hover{
+    background-color: #3ccc72;
+}
