@@ -6,7 +6,7 @@ body {
 
 html {
   background-image: url(../images/bg-repeat.jpg);
-background-size: contain;
+  background-size: contain;
 }
 
 main {
@@ -16,8 +16,8 @@ main {
   min-height: 100vh;
 }
 
-.formulario .texto{
-    width: 560px;
+.formulario .texto {
+  width: 560px;
 }
 
 .formulario .texto h1 {
@@ -30,12 +30,12 @@ main {
 }
 
 .formulario .texto h2 {
-    width: 287px;
-    height: 46px;
-    font-weight: 900;
-    font-size: 20px;
-    color: #ffffff;
-  }
+  width: 287px;
+  height: 46px;
+  font-weight: 900;
+  font-size: 20px;
+  color: #ffffff;
+}
 
 .formulario .texto p {
   width: 300px;
@@ -48,7 +48,7 @@ main {
 
 .info {
   width: 340px;
-  height: 378px;
+  height: 460px;
   background-color: #ffffff;
 }
 
@@ -64,12 +64,14 @@ main {
   height: 35.11px;
   margin-left: 21px;
   border-radius: 5px;
-  padding: 8px;
+  padding: 5px;
+  border: 2px solid black;
 }
 
 .info .dados.mensagem {
   width: 298.01px;
   height: 100px;
+  border: 2px solid black;
 }
 
 .info span {
@@ -86,12 +88,38 @@ main {
   margin-left: 21px;
   background-color: #3ccc87;
   border: 1px solid #3ccc87;
-  border-radius: 5px ;
+  border-radius: 5px;
   color: #ffffff;
   cursor: pointer;
   transition: 0.6s ease;
 }
 
-.info .btn:hover{
-    background-color: #3ccc72;
+.info .btn:hover {
+  background-color: #3ccc72;
+}
+
+.info .input-formulario small {
+  display: none;
+}
+
+.info .input-formulario small.verificado {
+  margin-left: 21px;
+  font-size: 8px;
+  height: 9px;
+  color: #3ccc87;
+}
+
+.info .input-formulario small.negado {
+  margin-left: 21px;
+  font-size: 8px;
+  height: 9px;
+  color: red;
+}
+
+.info .input-formulario .invalido {
+  border: 2px solid red;
+}
+
+.info .input-formulario .valido {
+  border: 2px solid #3ccc87;
 }
