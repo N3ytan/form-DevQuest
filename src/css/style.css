@@ -98,28 +98,26 @@ main {
   background-color: #3ccc72;
 }
 
-.info .input-formulario small {
-  display: none;
-}
-
-.info .input-formulario small.verificado {
-  margin-left: 21px;
-  font-size: 8px;
-  height: 9px;
-  color: #3ccc87;
-}
-
-.info .input-formulario small.negado {
-  margin-left: 21px;
-  font-size: 8px;
-  height: 9px;
-  color: red;
-}
-
 .info .input-formulario .invalido {
   border: 2px solid red;
 }
 
 .info .input-formulario .valido {
   border: 2px solid #3ccc87;
+}
+
+.info .input-formulario small {
+  margin-left: 21px;
+  font-size: 9px;
+  visibility: hidden;
+}
+
+.info .input-formulario small.aprovado {
+  color: #3ccc87;
+  visibility: visible;
+}
+
+.info .input-formulario small.negado {
+  color: red;
+  visibility: visible;
 }
