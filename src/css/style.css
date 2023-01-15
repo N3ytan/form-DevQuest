@@ -82,7 +82,7 @@ main {
   margin-left: 21px;
 }
 
-.info .btn {
+.btn {
   width: 298.01px;
   height: 41.13px;
   margin-left: 21px;
@@ -112,10 +112,6 @@ main {
   visibility: hidden;
 }
 
-.info .input-formulario small.aprovado {
-  color: #3ccc87;
-  visibility: visible;
-}
 
 .info .input-formulario small.negado {
   color: red;
