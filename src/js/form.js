@@ -20,14 +20,14 @@ form.addEventListener("submit", (e) => {
     LimpaClasse();
     limpaCor = false;
   }
-  VerificarValidacao();
+  VerificarNome();
 });
 
-const verificarCaracteres = () => {
+let verificarCaracteres = () => {
   console.log(nome.value);
 };
 
-const VerificarValidacao = () => {
+const VerificarNome = () => {
   if (nome.value == "") {
     campoNome.classList.add("invalido");
     campoSmall.classList.add("negado");
@@ -35,7 +35,6 @@ const VerificarValidacao = () => {
   } else {
     campoNome.classList.add("valido");
     campoNome.classList.add("aprovado");
-    console.log("teste");
     limpaCor = true;
   }
 };
