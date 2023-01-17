@@ -1,20 +1,10 @@
 const form = document.querySelector("#form");
-const inputNome = document.querySelector("#nome");
-const inputEmail = document.querySelector("#email");
-const inputTelefone = document.querySelector("#telefone");
-const inputMensagem = document.querySelector("#msg");
-
-let nomeValue = nome.value;
-let emailValue = email.value;
-let telefoneValue = telefone.value;
-let mensagemValue = msg.value;
-let limpaCor = false;
-
 const campoNome = document.querySelector("#nome");
 const campoEmail = document.querySelector("#email");
 const campoTelefone = document.querySelector("#telefone");
 const campoMensagem = document.querySelector("#msg");
 const campoSmall = document.querySelector("small");
+let limpaCor = false;
 
 form.addEventListener("submit", (e) => {
   e.preventDefault();

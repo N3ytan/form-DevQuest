@@ -1,55 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link rel="shortcut icon" href="src/images/icons-fill-in-form.png" type="image/x-icon">
+    <link
+      rel="shortcut icon"
+      href="src/images/icons-fill-in-form.png"
+      type="image/x-icon"
+    />
 
-    <link rel="stylesheet" href="src/css/reset.css">
+    <link rel="stylesheet" href="src/css/reset.css" />
 
-    <link rel="stylesheet" href="src/css/style.css">
+    <link rel="stylesheet" href="src/css/style.css" />
 
     <title>Formulário</title>
-</head>
-<body>
+  </head>
+  <body>
     <main class="formulario">
-        <section class="texto">
-            <h1>FICOU COM DÚVIDA?</h1>
-            <h2>NOS MANDE UMA MENSAGEM!</h2>
-            <p>Caso tenha ficado com qualquer dúvida basta nos mandar uma mensagem e entraremos em contato em menos de 24h.</p>
-        </section>
-        <section class="info" id="form">
-            <form class="input-formulario" action="/pagina-processa-dados-do-form" method="post">
-                <div class="controle-formulario">
-                    <label for="nome"></label>
-                    <input class="dados " type="text" id="nome" placeholder="Nome Completo *">
-                    <small class="">*campo obrigatório</small>
-                </div>
-                <div class="controle-formulario">
-                    <label for="email"></label>
-                    <input class="dados " type="email" id="email" placeholder="E-mail *" >
-                    <small>*campo obrigatório</small>
-                </div>
-                <div class="controle-formulario">
-                    <label for="telefone"></label>
-                    <input class="dados" type="tel" id="telefone" placeholder="Telefone *" >
-                    <small class="">*campo obrigatório</small>
-                </div>
-                <div class="controle-formulario">
-                    <label for="msg" ></label>
-                    <textarea class="dados mensagem" placeholder="Mensagem *" name="" id="msg" cols="21" rows="5" ></textarea>
-                    <small>*campo obrigatório</small>
-                </div>
+      <section class="texto">
+        <h1>FICOU COM DÚVIDA?</h1>
+        <h2>NOS MANDE UMA MENSAGEM!</h2>
+        <p>
+          Caso tenha ficado com qualquer dúvida basta nos mandar uma mensagem e
+          entraremos em contato em menos de 24h.
+        </p>
+      </section>
+      <section class="info" id="form">
+        <form
+          class="input-formulario"
+          action="/pagina-processa-dados-do-form"
+          method="post"
+        >
+          <div class="controle-formulario">
+            <label for="nome"></label>
+            <input
+              class="dados"
+              type="text"
+              id="nome"
+              placeholder="Nome Completo *"
+            />
+            <small>*campo obrigatório</small>
+          </div>
+          <div class="controle-formulario">
+            <label for="email"></label>
+            <input
+              class="dados"
+              type="email"
+              id="email"
+              placeholder="E-mail *"
+            />
+            <small>*campo obrigatório</small>
+          </div>
+          <div class="controle-formulario">
+            <label for="telefone"></label>
+            <input
+              class="dados"
+              type="tel"
+              id="telefone"
+              placeholder="Telefone *"
+            />
+            <small>*campo obrigatório</small>
+          </div>
+          <div class="controle-formulario">
+            <label for="msg"></label>
+            <textarea
+              class="dados mensagem"
+              placeholder="Mensagem *"
+              name=""
+              id="msg"
+              cols="21"
+              rows="5"
+            ></textarea>
+            <small>*campo obrigatório</small>
+          </div>
 
-                <span>*campos obrigatórios</span>
+          <span>*campos obrigatórios</span>
 
-                <button class="btn" type="submit">Enviar</button>
-            </form>
-        </section>
+          <button class="btn" type="submit">Enviar</button>
+        </form>
+      </section>
     </main>
 
     <script src="src/js/form.js"></script>
-</body>
+  </body>
 </html>
