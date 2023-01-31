@@ -117,4 +117,5 @@ main {
 .info .input-formulario small.negado {
   visibility: visible;
   color: red;
+  border: none;
 }
